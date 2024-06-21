@@ -62,6 +62,7 @@ public class Main extends Application {
                 for (int i = start; i <= end; i++) {
                     System.out.print(table1 + " x " + i + " = " + table1 * -i + "\t" + table2 + " x " + i + " = " + table2 * -i + "\t" + table3 + " x " + i + " = " + table3 * -i + "\n");
 
+                    consoleArea.clear();
                     consoleArea.appendText(String.format("%d x %-2d = %-5d    |  %d x %-2d = %-5d    |  %d x %-2d = %-5d\n", table1, i, table1 * -i, table2, i, table2 * -i, table3, i, table3 * -i));
                 }
             }
